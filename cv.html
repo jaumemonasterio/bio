@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> Curriculum viate </title>
+
+    </head>
+    <body> 
+        <div>
+            <p> 
+            <h1> Curriculum Vitae</h1>
+            
+            <h2> Dades Personals </h2>
+            <table>
+                <tr>
+                    <td> Nom </td>
+                    <td> Jaume</td>
+                </tr>
+                <tr>
+                    <td> Cogmom </td>
+                    <td> Monasterio Sella</td>
+                </tr>
+                <tr>
+                    <td> Telefon </td>
+                    <td> 687293252</td>
+                </tr>
+                <tr>
+                    <td> email </td>
+                    <td><a href="mailto: jmonasteriosella@gmail.com ">jmonasteriosella@gmail.com</a> </td>
+                </tr> 
+            </table>
+        </p> 
+         
+        <img src="cv.jpg" width="300" height="400"/> 
+
+        </div> 
+        
+        <div>
+            <h2> <a href="formacio.html"> Formació </a></h2>
+        
+        </div>
+        <div>
+        <h2> <a href="experiencia.html"> Experiencia </a></h2>
+        
+        </div>
+       <div > 
+            <h2> <a href="afficions.html"> Aficions</a></h2>
+       </div>
+
+       <div> 
+        <h2>  video de youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GdCaT00JsIo?si=ahr80FFrMxUjsKkY" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </div>
+
+     <div> 
+    <h2>  Mapa de Sitges </h2>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <div id="mapid" style="width: 600px; height: 400px;"></div>
+    <script>
+        var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(mymap);
+    </script>
+    
+    </body>
+
+
+</html>
+
+
+
+
+
