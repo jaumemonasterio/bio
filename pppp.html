@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        p span{
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <p > hola <span class="prova">mon</span> com estas  </p>
+    <p id ="prova2"> hola</p>
+    <a  class="prova" href="#">link</a>
+
+    
+    <div> 
+        <h2>  video de youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GdCaT00JsIo?si=ahr80FFrMxUjsKkY" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </div>
+
+     <div> 
+    <h2>  Mapa de Sitges </h2>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <div id="mapid" style="width: 600px; height: 400px;"></div>
+    <script>
+        var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(mymap);
+    </script>
+    
+    </body>
+
+</body>
+
+
+
+</html>

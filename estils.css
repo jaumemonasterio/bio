@@ -1,0 +1,33 @@
+
+header{
+    color:red;
+    font-size:  40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: chartreuse;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.foto{
+    float: left;
+}
+
+.ppp{
+    margin-left: 20px;
+    float: left;
+}
+
+.link{
+    float: left;
+    margin-left: 20 px ;
+    
+
+}
+
