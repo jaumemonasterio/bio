@@ -22,12 +22,22 @@ h1{
 .ppp{
     margin-left: 20px;
     float: left;
+    border-style: solid;
+    border-color: coral;
+    background: linear-gradient(to left, rgb(247, 1, 1), rgb(146, 81, 81));
+   
+}
+
+.fons{
+    background-image: url(fons.jpg);
+    background-repeat: repeat;
+
+
 }
 
 .link{
+
     float: left;
-    margin-left: 20 px ;
-    
-
+    margin-left: 20px;
+    background: radial-gradient(circle, rgb(201, 201, 44), grey , orange );
 }
-
