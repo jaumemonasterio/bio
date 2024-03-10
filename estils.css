@@ -3,7 +3,7 @@ header{
     color:red;
     font-size:  40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: chartreuse;
+    background: linear-gradient( to top, rgb(131, 70, 70),rgb(156, 83, 123)  );
     text-align: center;
 
 }
@@ -24,7 +24,7 @@ h1{
     float: left;
     border-style: solid;
     border-color: coral;
-    background: linear-gradient(to left, rgb(247, 1, 1), rgb(146, 81, 81));
+    background: linear-gradient(to left, rgb(201, 106, 106), rgb(146, 81, 81));
    
 }
 
@@ -39,5 +39,5 @@ h1{
 
     float: left;
     margin-left: 20px;
-    background: radial-gradient(circle, rgb(201, 201, 44), grey , orange );
+    background: radial-gradient(circle, rgb(201, 201, 44), rgb(182, 46, 46) , rgb(247, 163, 7) );
 }
