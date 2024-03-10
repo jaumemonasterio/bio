@@ -5,9 +5,21 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: linear-gradient( to top, rgb(131, 70, 70),rgb(156, 83, 123)  );
     text-align: center;
-
 }
 
+
+a{
+     color: #cc0000;
+}
+
+a:hover{
+background-color: #cc0000;
+color: #fff;
+
+}
+a:visited{
+    color: #ccc
+}
 h1{
     text-align: center;
     font-size: 24px;
